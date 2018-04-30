@@ -14,4 +14,8 @@ export class NoteComponent implements OnInit {
 
   }
 
+  getNotes() {
+    return this.noteService.getNotes();
+  }
+
 }
